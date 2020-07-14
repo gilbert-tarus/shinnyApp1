@@ -74,7 +74,7 @@ server<-function(input,output){
     
     output$kurtosistext<-renderText({paste("Kurtosis = ",round(kurtosis(histdata()),3))})
     
-    aboutdata<-reactive({paste(" I am Gilbert. I am still learning R.\n I regret one thing. I am slow. \n I'll try my best.")})
+    aboutdata<-reactive({paste("I wish to join a community of Developers. My Learning curv is flat")})
     
     output$About<-renderText({paste(aboutdata())})
 }
